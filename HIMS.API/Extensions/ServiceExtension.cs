@@ -75,7 +75,14 @@ namespace HIMS.API.Extensions
             services.AddTransient<I_MenuMaster, R_MenuMaster>();
             services.AddTransient<I_MenuMasterDetails, R_MenuMasterDetails>();
             services.AddTransient<I_MenuMasterDetails_Details, R_MenuMasterDetails_Details>();
-         
+
+
+
+            services.AddTransient<I_Doctordetils, R_Doctordetils>();
+            services.AddTransient<I_Citydetail, R_Citydetail>();
+            services.AddTransient<I_MRDetails, R_MRDetails>();
+            services.AddTransient<I_ProductDetails, R_ProductDetails>();
+            services.AddTransient<I_MonthlytourPlan, R_MonthlytourPlan>();
 
             // services.AddTransient<>();
 
